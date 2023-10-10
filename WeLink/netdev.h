@@ -19,5 +19,6 @@ public:
 	void start();
 
 private:
-	std::string device_name_;
+	HANDLE wintun_handle_{nullptr};
+	std::string device_name_{};
 };
